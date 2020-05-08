@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Prototipo Grafico</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba39632dba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light static-top dark_grey">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown notifications-nav pr-md-3">
+                    <a class="nav-link dropdown-toggle" id="collections" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="true">
+                       COLLEZIONI
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="collections">
+                        <a class="dropdown-item" href="#!">
+                            <span>NEW ARRIVALS</span>
+                        </a>
+                        <a class="dropdown-item" href="#!">
+                            <span>SPECIAL OFFERS</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NBS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">COME SI USA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTATTI</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-icons ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="fas fa-search dark_grey"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="section_container">
+    <div class="container-fluid">
+        <div class="row row-eq-height align-items-start">
+            <div class="col-lg-7">
+                <img src="images/shoe.png" class="fullWidht">
+            </div>
+            <div class="col-lg-5 ">
+                <h1 class="item_title">Product 1</h1>
+                <div class="subhead_product"><img class="verticalCenter " src="images/sygil.jpg"> Prodotto brevettato</div>
+                <div class="price">€15,00</div>
+                <div>
+                    <a href="#" class="btn _u fullWidht">Aggiungi al carrello</a>
+                </div>
+                <hr>
+                <div class="descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                    felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                    justo,
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                    vitae, justo.
+
+                    mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                    ante, dapibus in, viverra quis, feugiat a, tellus.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_hero marginBottom100">
+            <div id="overlay"></div>
+            <div class="hero_cta">
+                 <h2 class="hero_title">Qualche Parola con Mario Rossi</h2>
+                <div class=""><a class="btn btn-large">Guarda il video</a></div>
+            </div>
+</section>
+
+
+<section class="section_container">
+    <div class="container-fluid">
+        <div class="row row-eq-height">
+            <div class="col-md-6">
+                <span class="apex _u">Lorem ipsum</span>
+                <h2 class="title">Lorem ipsum</h2>
+                <div class="descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                    felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                    justo,
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                    vitae, justo.
+
+                    mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+                    eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                    ante, dapibus in, viverra quis, feugiat a, tellus.
+                </div>
+                <div class="marginTop50">
+                    <a class="btn btn-medium marginRight20" onclick="swap(1);">Lorem</a>
+                    <a class="btn btn-medium" onclick="swap(2);">Ipsum</a>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5 flex_box mobileMargiTop40">
+                <div class="img small_img" id="img_1">
+                </div>
+                <div class="img big_img"  id="img_2">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.slim.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+    var current_group = 1;
+    function swap(group){
+        if(group != current_group){
+            $('.img').toggleClass('big_img').toggleClass('small_img');
+        }
+        if(group==1){
+            current_group = 1;
+            $('#img_1').css("background-image", "url(images/running.jpeg)");
+            $('#img_2').css("background-image", "url(images/shoe2.jpeg)");
+        }else{
+            current_group = 2;
+            $('#img_1').css("background-image", "url(images/runcity.jpg)");
+            $('#img_2').css("background-image", "url(images/track_route.jpg");
+        }
+    }
+ </script>
+
+</body>
+
+</html>
